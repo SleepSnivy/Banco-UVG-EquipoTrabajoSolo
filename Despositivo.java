@@ -1,4 +1,4 @@
-public class Deposito {
+class Deposito {
 public static void realizar(CuentaBancaria cuenta, double monto) {
 if (monto <= 0) {
 System.out.println("El deposito debe ser mayor que cero.");
